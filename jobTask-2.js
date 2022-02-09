@@ -26,18 +26,3 @@ const cardDistribution = (personInfo) => {
 
     return sortingCards;
 }
-
-
-
-
-console.log(cardDistribution([
-    {
-        name: "Mr. Instructor", district: "Rajsahi", currentYear: 2022, postNo: 2400, birthYear: 2000, priority: 1
-    },
-    {
-        name: "Mr. Mojnu", district: "Dhaka", currentYear: 2022, postNo: 1200, birthYear: 1998, priority: 2
-    },
-    {
-        name: "Mr. Mojnu", district: "Pabna", currentYear: 2022, postNo: 1200, birthYear: 1998, priority: 1
-    }
-]));
